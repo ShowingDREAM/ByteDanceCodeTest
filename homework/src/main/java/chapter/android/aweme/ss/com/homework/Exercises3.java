@@ -31,7 +31,7 @@ public class Exercises3 extends AppCompatActivity {
         setContentView(R.layout.activity_tips);
         RecyclerView rvlist = findViewById(R.id.rv_list);
         LinearLayoutManager manager=new LinearLayoutManager(this);
-        manager.setOrientation(LinearLayout.HORIZONTAL);
+        manager.setOrientation(LinearLayout.VERTICAL);
         rvlist.setLayoutManager(manager);
         initData();
         Myadapter adapter=new Myadapter(strings);

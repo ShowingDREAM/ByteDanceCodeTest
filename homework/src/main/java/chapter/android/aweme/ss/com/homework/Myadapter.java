@@ -24,7 +24,6 @@ public class Myadapter extends RecyclerView.Adapter<Myadapter.ViewHolder> {
         View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.im_list_item,viewGroup,false);
         return  new ViewHolder(view);
     }
-//123123
     @Override
     public void onBindViewHolder(@NonNull ViewHolder viewHolder, int i) {
         final String temp = strings.get(i);
