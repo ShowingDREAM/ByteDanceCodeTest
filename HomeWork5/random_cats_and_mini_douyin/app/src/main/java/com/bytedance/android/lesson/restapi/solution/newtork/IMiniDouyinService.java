@@ -34,7 +34,7 @@ public interface IMiniDouyinService {
     //}
 
     // TODO-C2 (8) Implement your MiniDouyin Feed Request here, url: (GET) http://test.androidcamp.bytedance.com/mini_douyin/invoke/video
-    @GET("minidouyin/feed") Call<FeedResponse> fethFeeds();
+    @GET("mini_douyin/invoke/video") Call<FeedResponse> fethFeeds();
     // response
     // {
     //    "feeds":[

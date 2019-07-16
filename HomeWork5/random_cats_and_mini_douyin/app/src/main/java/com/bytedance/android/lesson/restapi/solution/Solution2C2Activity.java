@@ -208,7 +208,7 @@ public class Solution2C2Activity extends AppCompatActivity {
         // TODO-C2 (9) Send Request to fetch feed
         // if success, assign data to mFeeds and call mRv.getAdapter().notifyDataSetChanged()
         // don't forget to call resetRefreshBtn() after response received
-        IMiniDouyinService service = RetrofitManager.get("http://10.108.10.39:8080/").create(IMiniDouyinService.class);
+        IMiniDouyinService service = RetrofitManager.get("http://test.androidcamp.bytedance.com/").create(IMiniDouyinService.class);
         Call<FeedResponse> result = service.fethFeeds();
         result.enqueue(new Callback<FeedResponse>() {
             @Override
