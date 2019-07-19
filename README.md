@@ -1,6 +1,6 @@
 Content🤭
 =====
-CHAPTER       |        PROJECT  
+CHAPTER ------|--- --- PROJECT  
 
 Chapter-1--------------HomeWork1  
 Chapter-2--------------HomeWork2  
